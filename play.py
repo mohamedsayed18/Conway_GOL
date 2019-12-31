@@ -1,5 +1,4 @@
 import tkinter as tk
-import time
 
 from conway import ConWay
 from GOLGUI import GolGui
