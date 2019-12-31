@@ -35,7 +35,7 @@ play.pg[3,2]=1
 def make_iteration():
     gou.draw(play.pg)
     play.new_screen()
-    print("hello")
+    #print("hello")
     root.after(500, make_iteration)
 
 make_iteration()
