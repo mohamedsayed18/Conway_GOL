@@ -30,6 +30,36 @@ class ConWay :
         self.pg = self.new_pg
         self.new_pg = np.zeros((20, 20))
 
+    def shapes (self, shape):
+        if shape == 'Blinker':
+            # Blinker
+            self.pg[1,1]=1
+            self.pg[1,2]=1
+            self.pg[1,3]=1
+        elif shape == 'Toad':
+            # Toad
+            self.pg[1,2]=1
+            self.pg[1,3]=1
+            self.pg[1,4]=1
+
+            self.pg[2,1]=1
+            self.pg[2,2]=1
+            self.pg[2,3]=1
+        elif shape == 'Glider':
+            # Glider
+            self.pg[1, 1] = 1
+            self.pg[2, 2] = 1
+            self.pg[2, 3] = 1
+            self.pg[3, 1] = 1
+            self.pg[3, 2] = 1
+        elif shape == 'Beehive':
+            self.pg[3, 5] = 1
+            self.pg[3, 6] = 1
+            self.pg[4, 4] = 1
+            self.pg[4, 7] = 1
+            self.pg[5, 5] = 1
+            self.pg[5, 6] = 1
+
 class GolGui:
     def __init__(self, master):
         self.master = master  # create the master window
@@ -64,6 +94,8 @@ class GolGui:
             if a[ix,iy] == 1:
                 self.color_rec(ix,iy)
                 print("found @")
+
+
 
 if __name__ == "__main__":
     play = ConWay()
