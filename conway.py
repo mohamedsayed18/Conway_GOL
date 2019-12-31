@@ -71,7 +71,7 @@ class GolGui:
     """GUI of game draw the grid and the shapes"""
     def __init__(self, master):
         self.master = master  # create the master window
-        master.title("simple GUI")
+        master.title("Game of life")
 
         # canvas
         self.c = tk.Canvas(master, height=1000, width=1000, bg='white')  # create a canvas object
@@ -93,12 +93,11 @@ class GolGui:
         """Draw one rectangle at row, col"""
         start = (row * 30, col * 30)
         end = (row * 30 + 30, col * 30 + 30)
-        self.c.create_rectangle([start, end], fill="black", outline="red")
+        self.c.create_rectangle([start, end], fill="black", outline="red", tag='rec')
 
     def draw(self, a):
         """Draw the new playground"""
-        self.c.delete("all")
-        self.create_grid()
+        self.c.delete("rec")
         # loop through the play ground and draw the rectangles
         for ix, iy in np.ndindex(a.shape):
             if a[ix, iy] == 1:
