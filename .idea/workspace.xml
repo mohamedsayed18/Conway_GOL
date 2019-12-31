@@ -4,8 +4,6 @@
     <list default="true" id="9ee6bd7a-7037-4cf3-8594-72f356b7b921" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conway.py" beforeDir="false" afterPath="$PROJECT_DIR$/conway.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,11 +138,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.GOLGUI" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.conway" />
-      <item itemvalue="Python.trial" />
-      <item itemvalue="Python.GOLGUI" />
       <item itemvalue="Python.play" />
+      <item itemvalue="Python.trial" />
     </list>
     <recent_temporary>
       <list>
@@ -217,9 +215,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577527804190" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577768827483">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577782971104">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1577768827483" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1577782971104" />
   </component>
 </project>

@@ -1,9 +1,9 @@
 # Conway_GOL
-[Conway’s Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-
-Project using python Tkinter and numpy
-the main module conway contain two classes
-ConWay: which handles calculations
+[Conway’s Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)<br/>
+![](https://github.com/mohamedsayed18/Conway_GOL/blob/master/GOL.gif)<br/>
+Project using python tkinter and numpy
+the main module conway contain two classes<br/>
+ConWay: which handles calculations<br/>
 GolGui: which handles GUI
 #### How to use it 
 import the module and the tkinter
@@ -27,7 +27,7 @@ then run the main_iteration function in (trial.py)
 make_iteration()
 root.mainloop()
 ```
-in trial.py you can find example how to use this module 
+in trial.py you can find example how to use this module <br/>
 ####Important methods:
 * ConWay.shape(shape) <br/>take the shape you want to display Blinker, Toad, Glider or Beehive
 
