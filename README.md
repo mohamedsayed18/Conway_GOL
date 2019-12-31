@@ -28,7 +28,7 @@ make_iteration()
 root.mainloop()
 ```
 in trial.py you can find example how to use this module <br/>
-####Important methods:
+#### Important methods:
 * ConWay.shape(shape) <br/>take the shape you want to display Blinker, Toad, Glider or Beehive
 
 * ConWay.new_screen() <br/>Update the playground
