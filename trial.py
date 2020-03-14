@@ -3,6 +3,7 @@ from conway import ConWay, GolGui
 
 
 def make_iteration():
+    """every iteration generate and draw"""
     gou.draw(play.pg)   # draw the playground
     play.new_screen()   # calculate the new playground
     root.after(500, make_iteration) # call the function again after 500 ms
@@ -15,5 +16,5 @@ play.shapes('Beehive')  # choose the shape to start with
 play.shapes('Toad')
 
 
-make_iteration()
+make_iteration()  
 root.mainloop()

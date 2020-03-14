@@ -4,7 +4,7 @@ import tkinter as tk
 
 
 class ConWay:
-    """"""
+    """calculate the new screen and define shapes"""
     def __init__(self):
         """Create the play ground"""
         self.pg = np.zeros((20, 20))  # size of the playground
